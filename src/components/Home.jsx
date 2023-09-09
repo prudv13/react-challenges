@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 const Home = () => {
   return (
     <Fragment>
-        <div className='mb-4 p-3 d-flex flex-column gap-3 align-items-center home'>
+        <div className='mb-5 p-3 d-flex flex-column gap-3 align-items-center home'>
             <h3>React Challenges</h3>
             <div className='d-flex flex-wrap gap-3'>
                 <Link to="button-toggle"><button className='btn btn-dark'>Button Toggle</button></Link>
