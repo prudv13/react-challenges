@@ -12,6 +12,7 @@ const Home = () => {
                 <Link to="phonebook"><button className='btn btn-dark'>Phone Book</button></Link>
                 <Link to="tictactoe"><button className='btn btn-dark'>Tic-Tac-Toe</button></Link>
                 <Link to="progressbar"><button className='btn btn-dark'>Progress Bar</button></Link>
+                <Link to="currencyconvert"><button className='btn btn-dark'>Currency Converter</button></Link>
                 <Link to="pagination"><button className='btn btn-dark'>Pagination</button></Link>
                 <Link to="modal"><button className='btn btn-dark'>Modal</button></Link>
                 <Link to="dropdown"><button className='btn btn-dark'>Drop Down</button></Link>

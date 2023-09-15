@@ -12,6 +12,7 @@ import DropDown from './challenges/Drop Down/DropDown'
 import Comments from './challenges/Comment Section/Comments'
 import Accordion from './challenges/Accordion/Accordion'
 import DisabledButton from './challenges/Disable Button/DisabledButton'
+import CurrencyConvert from './challenges/Currency Converter/CurrencyConvert'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='phonebook' element={<PhoneBook />} />
           <Route path='tictactoe' element={<TicTacToe />} />
           <Route path='progressbar' element={<ProgressBar />} />
+          <Route path='currencyconvert' element={<CurrencyConvert />} />
           <Route path='pagination' element={<Pagination />} />
           <Route path='modal' element={<Modal />} />
           <Route path='dropdown' element={<DropDown />} />
