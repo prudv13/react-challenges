@@ -13,6 +13,7 @@ import Comments from './challenges/Comment Section/Comments'
 import Accordion from './challenges/Accordion/Accordion'
 import DisabledButton from './challenges/Disable Button/DisabledButton'
 import CurrencyConvert from './challenges/Currency Converter/CurrencyConvert'
+import Geolocate from './challenges/useGeolocate/Geolocate'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Route path='comments' element={<Comments />} />
           <Route path='accordion' element={<Accordion />} />
           <Route path='disabledbutton' element={<DisabledButton />} />
+          <Route path='usegeolocate' element={<Geolocate />} />
         </Route>
       </Routes>
     </div>

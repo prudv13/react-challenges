@@ -19,6 +19,7 @@ const Home = () => {
                 <Link to="comments"><button className='btn btn-dark'>Comments</button></Link>
                 <Link to="accordion"><button className='btn btn-dark'>Accordion</button></Link>
                 <Link to="disabledbutton"><button className='btn btn-dark'>Disabled Button</button></Link>
+                <Link to="usegeolocate"><button className='btn btn-dark'>UseGeolocate</button></Link>
             </div>
         </div>
         <div className='mx-4'>
