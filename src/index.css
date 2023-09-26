@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 .app {
     height: 100vh;
     font-family: sans-serif;
@@ -61,4 +65,63 @@
     font-weight: bold;
     color: #178fbe;
     cursor: pointer;
+}
+
+/* ============ HOME ============ */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 2fr));
+    width: 89%;
+    gap: 10px;
+    margin: 30px auto 0 auto;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.box, .box:link {
+    background-color: #e9ecef;
+    min-height: 270px;
+    transition: tranform 1s;
+    padding: 15px 10px;
+    transition: 0.2s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover, .box:active {
+    transform: translateY(-5px);
+    background-color: #1dafe9;
+    color: #fff !important;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-title {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.info-subtitle{
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+    color: inherit;
+}
+
+.info-description {
+    font-size: 16px;
+    color: inherit;
+    text-align: center;
+    margin-top: 10px;
 }
