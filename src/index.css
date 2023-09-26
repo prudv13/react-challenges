@@ -10,3 +10,55 @@
 }
 
 /* ============ NAVBAR ============ */
+
+.navbar {
+    height: 60px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo, .navbar-logo:link{
+    text-decoration: none;
+    color: #1dafe9;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 15px;
+    font-size: 21px;
+    transition: 0.3s ease;
+}
+
+.navbar-logo:hover, .navbar-logo:active{
+    text-decoration: none;
+    font-weight: bold;
+    color: #178fbe;
+    cursor: pointer;
+}
+
+.navbar-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 15px;
+}
+
+.navbar-link, .navbar-link:link{
+    text-decoration: none;
+    font-size: 21px;
+    color: #1dafe9;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 3rem;
+}
+
+.navbar-link:hover, .navbar-link:active{
+    text-decoration: none;
+    font-weight: bold;
+    color: #178fbe;
+    cursor: pointer;
+}
