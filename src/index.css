@@ -85,6 +85,8 @@ main {
     transition: tranform 1s;
     padding: 15px 10px;
     transition: 0.2s ease;
+    color: #333;
+    text-decoration: none;
 
     display: flex;
     align-items: center;

@@ -1,12 +1,13 @@
 import React from 'react'
 import challenges from '../utils/data';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <main>
     {
       challenges.map(challenge => (
-        <div className="box" key={challenge.id}>
+        <Link to={`challenge${challenge.id}`} className="box" key={challenge.id}>
           <div className="info">
             <h3 className="info-title">{challenge.title} - {challenge.id}</h3>
             <h5 className="info-subtitle">{challenge.subTitle}</h5>
@@ -14,7 +15,7 @@ const Home = () => {
               {challenge.description}
             </p>
           </div>
-        </div>
+        </Link>
       ))
     }
     </main>
