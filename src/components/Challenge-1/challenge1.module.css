@@ -1,0 +1,19 @@
+.challenge1Container {
+    background-color: #6bd5ff;
+    padding: 5%;
+    margin: 3%;
+}
+
+.challenge1Container h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.challenge1Container h3 {
+    color: #495057;
+    font-weight: bold;
+}
+
+.challenge1Container p {
+    color: #495057;
+}
