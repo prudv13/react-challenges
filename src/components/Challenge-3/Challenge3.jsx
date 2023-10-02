@@ -35,7 +35,7 @@ const Challenge3 = () => {
         </div>
         <div className="d-flex flex-column justify-content-center gap-3">
 
-          <div className="input-group">
+          <div className="input-group w-50 mx-auto">
             <input
               type="text"
               className="form-control"
